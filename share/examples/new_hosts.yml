@@ -1,0 +1,19 @@
+#后端主机列表
+#用于把数据添加到host表中。
+#id   hostname    ip    port
+#对应hostname字段
+server1:
+  ip: 192.168.88.128 #对应ip字段
+  port: 22    #对应port字段
+
+server2:
+  ip: 192.168.88.129
+  port: 22
+server3:
+  ip: 192.168.88.130
+server4:
+  ip: 192.168.88.131
+server5:
+  ip: 192.168.88.134
+server6:
+  ip: 192.168.88.135

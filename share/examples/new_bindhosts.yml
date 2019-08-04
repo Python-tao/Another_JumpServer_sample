@@ -1,0 +1,75 @@
+#堡垒机用户与远程用户与后端主机的对应表
+#id   host_id    remoteuser_id
+#1      1             2
+
+bind1:
+  hostname: server1   #后端主机的名称
+  remote_users:
+    - user1:
+      username: root
+      auth_type: ssh-password
+      password: 123456
+    - user2:
+      username: gentoo
+      auth_type: ssh-password
+      password: 123456
+    - user3:
+      username: mysql
+      auth_type: ssh-key
+
+  groups:
+    - gz_group
+    - hk_group
+  user_profiles:
+    - alex
+    - jack
+
+bind2:
+  hostname: server2
+  remote_users:
+    - user1:
+      username: root
+      auth_type: ssh-password
+      password: 123456
+  groups:
+    - hk_group
+  user_profiles:
+    - rain
+
+
+bind3:
+  hostname: server3
+  remote_users:
+    - user1:
+      username: root
+      auth_type: ssh-password
+      password: 123456
+    - user2:
+      username: gentoo
+      auth_type: ssh-password
+      password: 123456
+
+  groups:
+    - hk_group
+  user_profiles:
+    - alex
+    - jack
+
+
+bind4:
+  hostname: server6
+  remote_users:
+    - user1:
+      username: root
+      auth_type: ssh-password
+      password: 123456
+    - user2:
+      username: centos
+      auth_type: ssh-password
+      password: 123456
+
+  groups:
+    - db_server
+  user_profiles:
+    - alex
+    - jack

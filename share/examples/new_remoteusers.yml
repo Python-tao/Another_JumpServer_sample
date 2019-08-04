@@ -1,0 +1,27 @@
+#添加数据到远程用户表。
+#id     auth_type            username      password
+# 1  ssh-password/ssh-key     user1         12..323
+
+user0:
+  auth_type:  ssh-password
+  username: root
+  password: 123456
+
+user1:
+  auth_type:  ssh-password
+  username: gentoo
+  password: 123456
+
+user2:
+  auth_type:  ssh-password
+  username: centos
+  password: 123456
+
+user3:
+  auth_type:  ssh-password
+  username:  mysql
+  password: 456789
+user4:
+  auth_type:  ssh-key
+  username: mysql
+#  password: 456789

@@ -1,0 +1,22 @@
+#添加数据到主机组表
+#id     组名称
+#1      db_server
+
+gz_group:
+  #bind_hosts:
+  #  - h1
+  #  - h2
+#  user_profiles:
+#    - alex
+
+hk_group:
+#  user_profiles:
+#    - jack
+#    - alex
+#    - rain
+
+
+db_server:
+
+cache_server:
+

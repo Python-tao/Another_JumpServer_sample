@@ -1,0 +1,19 @@
+#堡垒机用户表，user_profile
+#id   username    password
+#1    alex        alex123
+
+alex:
+  password: 123456
+  #groups:
+  #  - web_servers
+  #  - db_servers
+  #bind_hosts:
+  #  - h1
+  #  - h2
+  #  - h3
+jack:
+  password: 123456
+
+
+
+
